@@ -1,1 +1,2 @@
-echo $HOME/.config/nvim
+#!/bin/bash
+cp -r $HOME/.config/nvim/. ./
