@@ -113,3 +113,9 @@ alias docp="docker-compose"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # Loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # Loads nvm bash_completion
+
+# Home Brew Shell
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
+# Conda
+export PATH="/home/lfabre/anaconda3/bin:$PATH"
