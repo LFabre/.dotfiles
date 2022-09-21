@@ -107,6 +107,8 @@ source $ZSH/oh-my-zsh.sh
 alias cls="clear"
 alias doc="docker"
 alias docp="docker-compose"
+alias lt="tree -L 1"
+alias ltl="tree -L"
 
 # NVM Install
 export NVM_DIR="$HOME/.nvm"
