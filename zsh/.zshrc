@@ -109,6 +109,7 @@ alias doc="docker"
 alias docp="docker-compose"
 alias lt="tree -L 1"
 alias ltl="tree -L"
+alias copy="xclip -selection clipboard"
 
 # NVM Install
 export NVM_DIR="$HOME/.nvm"
