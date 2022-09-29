@@ -3,7 +3,10 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
-export PATH="$PATH:$HOME/.local/bin"
+
+if [ -d "$HOME/.local/bin" ] ; then
+    PATH="$HOME/.local/bin:$PATH"
+fi
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -111,3 +114,9 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 # Conda
 export PATH="/home/lfabre/anaconda3/bin:$PATH"
+
+# GO
+export PATH="$PATH:/usr/local/go/bin"
+export GOPATH="/home/lfabre/Documents/projects/bolttech/golang"
+export GOROOT="/usr/local/go"
+export GO111MODULE=on
