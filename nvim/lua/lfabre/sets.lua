@@ -15,4 +15,4 @@ set.backup = false		    -- Disable backup files to be kept
 set.incsearch = true		  -- Enables incremental search
 set.scrolloff = 8		      -- Sets scroll offset
 set.signcolumn = 'yes'		-- Adds a column behind line numbers (Used for line status)
-set.colorcolumn = '100'		  -- Warnning colomun (Big line alert)
+set.colorcolumn = '100'		-- Warnning colomun (Big line alert)
