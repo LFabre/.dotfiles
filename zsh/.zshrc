@@ -104,6 +104,7 @@ alias lg="ls -a | grep"
 alias lt="tree -L 1"
 alias ltl="tree -L"
 alias copy="xclip -selection clipboard"
+alias v="vim"
 
 # NVM Install
 export NVM_DIR="$HOME/.nvm"
