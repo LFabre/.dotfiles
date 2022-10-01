@@ -100,6 +100,7 @@ source $ZSH/oh-my-zsh.sh
 alias cls="clear"
 alias doc="docker"
 alias docp="docker-compose"
+alias lg="ls -a | grep"
 alias lt="tree -L 1"
 alias ltl="tree -L"
 alias copy="xclip -selection clipboard"
