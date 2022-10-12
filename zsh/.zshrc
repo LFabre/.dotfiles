@@ -12,7 +12,8 @@ fi
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+# ZSH_THEME="robbyrussell"
+ZSH_THEME="lfabre" # My Custom Theme
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -73,16 +74,18 @@ HIST_STAMPS="yyyy-mm-dd"
 
 # Standard plugins can be found in $ZSH/plugins/
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
-plugins=(git sudo web-search copypath copyfile copybuffer dirhistory jsontools)
+plugins=(
+    git                 # Enables multiple git alias
+    git-prompt-enhanced # Enhanced git status on your prompt
+    sudo                # Double ESC to re-write the last command with sudo
+    web-search          # Type 'google' and a string to open up a browser
+    copypath            # Adds current directory or file path to clipboard
+    copyfile            # Adds file content to clipboard
+    copybuffer          # Ctrl+o to add current typed text to the clipboard
+    dirhistory          # Improves directory navigation
+    jsontools           # Multiple json helper commands
+)
 source $ZSH/oh-my-zsh.sh
-
-# sudo: Double ESC twice to re-write the previous command prefixed with sudo
-# web-search: Type 'google' and a string to open up a browser
-# copypath: Adds current directory or file path to clipboard
-# copyfile: Adds file content to clipboard
-# copybuffer: Hit ctrl+o to add current typed text on the shell to the clipboard
-# dirhistory: Improves directory navigation
-# jsontools: Multiple json helper commands
 
 ## User configuration
 
