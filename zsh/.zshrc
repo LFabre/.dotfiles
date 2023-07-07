@@ -126,3 +126,8 @@ export PATH="$PATH:/usr/local/go/bin"
 export GOPATH="/home/lfabre/Documents/projects/bolttech/golang"
 export GOROOT="/usr/local/go"
 export GO111MODULE=on
+
+# Android
+export ANDROID_HOME=$HOME/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/platform-tools
