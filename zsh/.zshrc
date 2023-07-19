@@ -109,6 +109,7 @@ alias ltl="tree -L"
 alias copy="xclip -selection clipboard"
 alias v="vim"
 alias nord="nordlayer"
+alias brave="brave-browser"
 
 # NVM Install
 export NVM_DIR="$HOME/.nvm"
@@ -116,18 +117,18 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # Loads nvm bash_completion
 
 # Home Brew Shell
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+# eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 # Conda
 export PATH="/home/lfabre/anaconda3/bin:$PATH"
 
 # GO
-export PATH="$PATH:/usr/local/go/bin"
-export GOPATH="/home/lfabre/Documents/projects/bolttech/golang"
-export GOROOT="/usr/local/go"
-export GO111MODULE=on
+# export PATH="$PATH:/usr/local/go/bin"
+# export GOPATH="/home/lfabre/Documents/projects/bolttech/golang"
+# export GOROOT="/usr/local/go"
+# export GO111MODULE=on
 
 # Android
-export ANDROID_HOME=$HOME/Android/Sdk
-export PATH=$PATH:$ANDROID_HOME/tools
-export PATH=$PATH:$ANDROID_HOME/platform-tools
+# export ANDROID_HOME=$HOME/Android/Sdk
+# export PATH=$PATH:$ANDROID_HOME/tools
+# export PATH=$PATH:$ANDROID_HOME/platform-tools
