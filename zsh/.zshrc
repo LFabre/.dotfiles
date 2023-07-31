@@ -120,7 +120,7 @@ export NVM_DIR="$HOME/.nvm"
 # eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 # Conda
-export PATH="/home/lfabre/anaconda3/bin:$PATH"
+#export PATH="/home/lfabre/anaconda3/bin:$PATH"
 
 # GO
 # export PATH="$PATH:/usr/local/go/bin"
@@ -129,6 +129,6 @@ export PATH="/home/lfabre/anaconda3/bin:$PATH"
 # export GO111MODULE=on
 
 # Android
-# export ANDROID_HOME=$HOME/Android/Sdk
-# export PATH=$PATH:$ANDROID_HOME/tools
-# export PATH=$PATH:$ANDROID_HOME/platform-tools
+export ANDROID_HOME=$HOME/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/platform-tools
