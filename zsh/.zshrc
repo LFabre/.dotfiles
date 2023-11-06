@@ -84,6 +84,7 @@ plugins=(
     copybuffer          # Ctrl+o to add current typed text to the clipboard
     dirhistory          # Improves directory navigation
     jsontools           # Multiple json helper commands
+    npm                 # Npm alias
 )
 source $ZSH/oh-my-zsh.sh
 
