@@ -4,7 +4,7 @@
 # \uE0A0 - Git Branch Icon
 
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg[magenta]%}(\u2713 "
-ZSH_THEME_GIT_PROMPT_SUFFIX="%{$fg[magenta]%})"
+ZSH_THEME_GIT_PROMPT_SUFFIX=" %{$fg[magenta]%})"
 
 PROMPT="
  %(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}➜ )"
