@@ -112,28 +112,16 @@ alias v="vim"
 alias nord="nordlayer"
 alias brave="brave-browser"
 
-# NVM Install
+# Nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # Loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # Loads nvm bash_completion
 
-# Home Brew Shell
-# eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-
-# Conda
-#export PATH="/home/lfabre/anaconda3/bin:$PATH"
-
-# GO
-# export PATH="$PATH:/usr/local/go/bin"
-# export GOPATH="/home/lfabre/Documents/projects/bolttech/golang"
-# export GOROOT="/usr/local/go"
-# export GO111MODULE=on
+# Java
+export JAVA_HOME="$(dirname $(dirname $(readlink $(readlink $(which java)))))"
+export PATH=$PATH:$JAVA_HOME/bin
 
 # Android
 export ANDROID_HOME=$HOME/Android/Sdk
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/platform-tools
-
-# Java - alternatives setup
-export JAVA_HOME="$(dirname $(dirname $(readlink $(readlink $(which java)))))"
-export PATH=$PATH:$JAVA_HOME/bin
